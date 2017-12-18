@@ -1,0 +1,106 @@
+
+
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.left {
+  border: 1px solid black;
+  align-items: center;
+  display: inline-flex;
+  flex-grow: 2;
+}
+.logo {
+  color: MediumAquamarine;
+  }
+
+nav {
+  text-align: right;
+}
+nav span {
+display: inline-flex;
+flex-grow: 1;
+padding: 10px;
+
+}
+
+.header li {
+  list-style: none;
+}
+.header li a {
+  color: inherit;
+}
+
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 26px;
+  border: 1px solid black;
+
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  border: 1px solid black;
+}
+
+/* First News Column */
+
+.column.large {
+  width: 630px;
+}
+.column.middle {
+
+  width: 300px;
+  border: 1px solid black;
+
+
+}
+.column.small {
+
+  width: 240px;
+  border: 1px solid black;
+}
+
+  .image-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  }
+
+  .lead-story .image-content {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+    width: 630px;
+    margin-top: 0;
+    text-align: left;
+    font-size: 40px;
+  }
+
+.border{
+  border: 1px solid black;
+}
+.bold {
+  font-weight: bold;
+}
+
+.second-story .image-content: {
+
+}
+.image-content span {
+  margin-left: 20px;
+}
